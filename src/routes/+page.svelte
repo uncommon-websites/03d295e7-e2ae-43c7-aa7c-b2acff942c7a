@@ -1,6 +1,71 @@
 <script lang="ts">
     import AppButtons from "$lib/components/AppButtons.svelte";
     import PhoneMockup from "$lib/components/PhoneMockup.svelte";
+    import { onMount } from 'svelte';
+
+    // Carousel state
+    let currentSlide = $state(0);
+    let autoplayInterval: ReturnType<typeof setInterval> | null = null;
+
+    // Principle items
+    const principles = [
+        {
+            number: "1.",
+            title1: "AI-powered",
+            title2: "scheduling.",
+            numberStyle: "-webkit-text-stroke: 1px rgba(255,255,255,0.5); color: transparent;"
+        },
+        {
+            number: "2.",
+            title1: "Proactive",
+            title2: "accountability.",
+            numberStyle: "color: #FF6D22;"
+        },
+        {
+            number: "3.",
+            title1: "Continuous",
+            title2: "progress.",
+            numberStyle: "color: #FFFFFF;"
+        }
+    ];
+
+    // Navigation functions
+    function goToSlide(index: number) {
+        currentSlide = index;
+        resetAutoplay();
+    }
+
+    function nextSlide() {
+        currentSlide = (currentSlide + 1) % principles.length;
+        resetAutoplay();
+    }
+
+    function prevSlide() {
+        currentSlide = (currentSlide - 1 + principles.length) % principles.length;
+        resetAutoplay();
+    }
+
+    function resetAutoplay() {
+        if (autoplayInterval) {
+            clearInterval(autoplayInterval);
+        }
+        startAutoplay();
+    }
+
+    function startAutoplay() {
+        autoplayInterval = setInterval(() => {
+            currentSlide = (currentSlide + 1) % principles.length;
+        }, 5000);
+    }
+
+    onMount(() => {
+        startAutoplay();
+        return () => {
+            if (autoplayInterval) {
+                clearInterval(autoplayInterval);
+            }
+        };
+    });
 </script>
 
 <div class="w-full overflow-hidden">
@@ -81,38 +146,65 @@
             </p>
         </div>
 
-        <div class="relative w-full overflow-x-hidden">
-            <div class="flex whitespace-nowrap px-6 gap-4 md:gap-12 items-center">
-                 <!-- Item 1 -->
-                 <div class="inline-flex items-baseline">
-                    <span class="text-[120px] md:text-[180px] font-serif font-light text-transparent stroke-text opacity-50" style="-webkit-text-stroke: 1px rgba(255,255,255,0.5);">1.</span>
-                    <div class="flex flex-col ml-4">
-                        <span class="text-5xl md:text-7xl font-serif">AI-powered</span>
-                        <span class="text-5xl md:text-7xl font-serif font-bold">scheduling.</span>
+        <div class="relative w-full overflow-hidden min-h-[280px] md:min-h-[320px] flex items-center">
+            <div 
+                class="flex transition-transform duration-700 ease-in-out px-6"
+                style="transform: translateX(-{currentSlide * 100}%)"
+            >
+                {#each principles as principle, index}
+                    <div class="w-full flex-shrink-0 flex justify-center items-center">
+                        <div class="inline-flex items-baseline">
+                            <span 
+                                class="text-[120px] md:text-[180px] font-serif font-light transition-opacity duration-700"
+                                style={principle.numberStyle}
+                            >
+                                {principle.number}
+                            </span>
+                            <div class="flex flex-col ml-4 md:ml-8">
+                                <span class="text-5xl md:text-7xl font-serif whitespace-normal">{principle.title1}</span>
+                                <span class="text-5xl md:text-7xl font-serif font-bold whitespace-normal">{principle.title2}</span>
+                            </div>
+                        </div>
                     </div>
-                 </div>
-                 
-                 <!-- Item 2 -->
-                 <div class="inline-flex items-baseline ml-12 md:ml-24">
-                    <span class="text-[120px] md:text-[180px] font-serif font-light" style="color: #FF6D22;">2.</span>
-                    <div class="flex flex-col ml-4">
-                        <span class="text-5xl md:text-7xl font-serif">Proactive</span>
-                        <span class="text-5xl md:text-7xl font-serif font-bold">accountability.</span>
-                    </div>
-                 </div>
-
-                 <!-- Hint of Item 3 -->
-                   <div class="inline-flex items-baseline ml-12 md:ml-24 opacity-20">
-                    <span class="text-[120px] md:text-[180px] font-serif font-light">3.</span>
-                 </div>
+                {/each}
             </div>
         </div>
 
-        <div class="max-w-7xl mx-auto px-6 mt-12 flex justify-end">
+        <div class="max-w-7xl mx-auto px-6 mt-12 flex justify-between items-center">
+            <!-- Navigation Arrows -->
+            <button 
+                onclick={prevSlide}
+                class="text-white hover:text-primary-500 transition-colors p-2"
+                aria-label="Previous slide"
+            >
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M15 18L9 12L15 6" />
+                </svg>
+            </button>
+
+            <!-- Dots Navigation -->
             <div class="flex gap-2">
-                <div class="w-3 h-3 rounded-full bg-white"></div>
-                <div class="w-3 h-3 rounded-full bg-gray-600"></div>
+                {#each principles as _, index}
+                    <button
+                        onclick={() => goToSlide(index)}
+                        class={[
+                            'w-3 h-3 rounded-full transition-all duration-300',
+                            currentSlide === index ? 'bg-white scale-110' : 'bg-gray-600 hover:bg-gray-400'
+                        ]}
+                        aria-label="Go to slide {index + 1}"
+                    ></button>
+                {/each}
             </div>
+
+            <button 
+                onclick={nextSlide}
+                class="text-white hover:text-primary-500 transition-colors p-2"
+                aria-label="Next slide"
+            >
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 18L15 12L9 6" />
+                </svg>
+            </button>
         </div>
     </section>
 
