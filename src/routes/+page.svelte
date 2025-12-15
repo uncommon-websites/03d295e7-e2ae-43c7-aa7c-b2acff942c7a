@@ -6,19 +6,33 @@
 <div class="w-full overflow-hidden">
     <!-- Header -->
     <header class="w-full py-8 flex flex-col items-center justify-center text-center">
-        <h1 class="text-4xl font-serif font-medium tracking-tight">Atoms.</h1>
-        <p class="text-xs uppercase tracking-widest text-gray-500 mt-2 font-sans">The official Atomic Habits app</p>
+        <div class="flex items-center gap-3">
+            <div class="w-8 h-8 text-primary-500">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M6.99251 12.196C6.85314 12.5757 6.62925 12.9208 6.33682 13.2067H6.33835C6.00191 13.5351 5.58566 13.7756 5.12816 13.9059C4.67065 14.0362 4.18671 14.0522 3.72118 13.9523C3.25564 13.8524 2.82357 13.64 2.46501 13.3345C2.10645 13.0291 1.83299 12.6406 1.66998 12.2051C1.50697 11.7696 1.45969 11.3012 1.5325 10.8432C1.60532 10.3852 1.79587 9.95244 2.08653 9.58516C2.37718 9.21781 2.75852 8.9277 3.1952 8.74177C3.63188 8.55585 4.10979 8.48002 4.58462 8.52142L4.57074 8.50792C5.0567 8.54782 5.54575 8.48407 6.00378 8.32124C6.4618 8.15846 6.87776 7.90043 7.2226 7.56521C7.56746 7.22998 7.83285 6.82564 8.00036 6.38041C8.16786 5.93517 8.23344 5.45976 8.1924 4.98737L8.20628 5.00087C8.15181 4.43594 8.27796 3.86844 8.56753 3.37575C8.85701 2.88307 9.29579 2.48919 9.82407 2.24782C10.3523 2.00645 10.9443 1.92933 11.5192 2.02701C12.0942 2.12467 12.6243 2.39237 13.037 2.79358C13.4497 3.19479 13.7251 3.70999 13.8256 4.26892C13.926 4.82785 13.8467 5.4033 13.5984 5.9168C13.3501 6.4303 12.9449 6.85685 12.4381 7.13828C11.9313 7.41971 11.3474 7.54233 10.7663 7.4894L10.781 7.5029C10.2949 7.46279 9.80563 7.52632 9.34741 7.68904C8.88919 7.85176 8.47309 8.10975 8.12805 8.44499C7.78301 8.78025 7.51742 9.18466 7.34983 9.63001C7.18224 10.0754 7.11669 10.551 7.15774 11.0235L7.14309 11.01C7.1833 11.4112 7.13189 11.8162 6.99251 12.196ZM11.5077 14.7121L11.493 14.6986C11.9061 14.739 12.3232 14.6897 12.7143 14.5543C13.1053 14.4188 13.4605 14.2007 13.7542 13.9154C14.0477 13.6302 14.2726 13.285 14.4121 12.905C14.5518 12.525 14.6028 12.1196 14.5615 11.718L14.5762 11.7315C14.5351 11.2591 14.6007 10.7838 14.7681 10.3385C14.9356 9.89327 15.2011 9.48893 15.5459 9.15368C15.8908 8.8185 16.3068 8.56042 16.7648 8.39767C17.2228 8.23481 17.7118 8.17111 18.1978 8.21099L18.1832 8.19749C18.7645 8.25059 19.3485 8.12801 19.8556 7.84656C20.3627 7.56511 20.7681 7.13845 21.0165 6.62479C21.265 6.11114 21.3444 5.53548 21.2439 4.97634C21.1435 4.4172 20.868 3.9018 20.4551 3.50044C20.0422 3.09909 19.512 2.8313 18.9368 2.73364C18.3616 2.63596 17.7695 2.71315 17.241 2.95467C16.7126 3.19618 16.2737 3.59027 15.9842 4.08319C15.6946 4.57609 15.5685 5.14383 15.6232 5.70895L15.6093 5.6947C15.6504 6.16712 15.585 6.64259 15.4175 7.08788C15.2501 7.53318 14.9846 7.93758 14.6398 8.27287C14.2949 8.60805 13.8789 8.86612 13.4208 9.02888C12.9627 9.19163 12.4736 9.25523 11.9876 9.21526L12.0015 9.22951C11.5885 9.18908 11.1713 9.23836 10.7803 9.37381C10.3893 9.50919 10.034 9.72744 9.74039 10.0127C9.44674 10.2979 9.22199 10.6431 9.08234 11.0231C8.94276 11.4031 8.89176 11.8085 8.93304 12.2101L8.91915 12.1966C8.96005 12.6689 8.89439 13.1443 8.72688 13.5895C8.5593 14.0346 8.29389 14.4389 7.94908 14.7741C7.60425 15.1093 7.18835 15.3673 6.73039 15.5302C6.27242 15.693 5.78342 15.7569 5.29749 15.7171L5.31138 15.7306C4.73003 15.6775 4.14599 15.8001 3.63892 16.0815C3.13186 16.363 2.72644 16.7896 2.478 17.3033C2.22954 17.817 2.15013 18.3926 2.25061 18.9518C2.35109 19.5109 2.62657 20.0263 3.03945 20.4276C3.45234 20.829 3.98253 21.0968 4.55773 21.1944C5.13293 21.2921 5.72512 21.2149 6.25353 20.9734C6.78193 20.7319 7.22085 20.3379 7.51038 19.8449C7.79994 19.352 7.92601 18.7843 7.87139 18.2191L7.88605 18.2326C7.845 17.7602 7.91058 17.2849 8.07809 16.8396C8.24551 16.3944 8.511 15.99 8.85581 15.6548C9.20069 15.3196 9.61664 15.0615 10.0746 14.8988C10.5327 14.7359 11.0217 14.6722 11.5077 14.7121ZM17.1996 10.7633C16.9071 11.0493 16.6832 11.3944 16.5437 11.7741C16.4042 12.1538 16.3526 12.5587 16.3925 12.9601L16.3786 12.9466C16.4197 13.419 16.3541 13.8944 16.1866 14.3396C16.0191 14.7849 15.7537 15.1892 15.4089 15.5244C15.064 15.8596 14.648 16.1177 14.19 16.2804C13.732 16.4433 13.2429 16.507 12.757 16.4671L12.7708 16.4806C12.1896 16.4281 11.6057 16.551 11.0989 16.8328C10.5921 17.1145 10.1871 17.5414 9.93902 18.0551C9.69097 18.5689 9.61188 19.1444 9.71265 19.7035C9.81349 20.2625 10.0892 20.7777 10.5022 21.1788C10.9152 21.5799 11.4454 21.8474 12.0205 21.9448C12.5957 22.0423 13.1877 21.9649 13.716 21.7234C14.2443 21.4817 14.683 21.0877 14.9724 20.5947C15.2618 20.1018 15.3878 19.5342 15.3332 18.9692L15.3478 18.9827C15.3068 18.5103 15.3723 18.0349 15.5398 17.5896C15.7073 17.1444 15.9728 16.7401 16.3176 16.4048C16.6625 16.0696 17.0784 15.8115 17.5364 15.6488C17.9945 15.486 18.4835 15.4222 18.9695 15.4621L18.9548 15.4486C19.4296 15.4901 19.9076 15.4144 20.3444 15.2286C20.7811 15.0427 21.1625 14.7527 21.4533 14.3854C21.744 14.0181 21.9347 13.5854 22.0075 13.1274C22.0805 12.6694 22.0332 12.2009 21.8703 11.7653C21.7073 11.3298 21.4339 10.9413 21.0754 10.6358C20.7168 10.3303 20.2848 10.1178 19.8192 10.0179C19.3536 9.91795 18.8697 9.93385 18.4121 10.0641C17.9546 10.1945 17.5383 10.4349 17.2019 10.7633H17.1996Z"
+                        fill="currentColor"
+                    />
+                </svg>
+            </div>
+            <h1 class="text-4xl font-serif font-medium tracking-tight">Actimate</h1>
+        </div>
+        <p class="text-xs uppercase tracking-widest text-gray-500 mt-2 font-sans">AI-Powered Productivity Coaching</p>
     </header>
 
     <!-- Hero Section -->
     <section class="max-w-7xl mx-auto px-6 pt-12 pb-24 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div class="flex flex-col items-start space-y-8">
             <h2 class="text-6xl md:text-7xl font-serif leading-[1.1]">
-                Tiny changes,<br/>
-                remarkable results.
+                Turn chaotic<br/>
+                schedules into<br/>
+                intentional<br/>
+                progress.
             </h2>
             <p class="text-gray-600 max-w-md leading-relaxed">
-                Based on the easy and proven habit change method from the NYT best-seller, Atom's helps you build good habits and break bad ones.
+                Actimate combines AI-powered calendar integration with proactive accountability coaching to help you achieve your goals—even with ADHD or a packed schedule.
             </p>
             <div class="pt-2">
                 <AppButtons />
@@ -27,32 +41,43 @@
         
         <div class="relative flex justify-center items-center">
             <!-- Abstract Background Shapes -->
-            <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] opacity-50 pointer-events-none">
-                 <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="w-full h-full fill-[#F2EBE0]">
+            <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] opacity-30 pointer-events-none">
+                 <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="w-full h-full fill-primary-100">
                     <path d="M44.7,-76.4C58.9,-69.2,71.8,-59.1,81.6,-46.6C91.4,-34.1,98.2,-19.2,95.8,-5.2C93.4,8.8,81.8,21.9,71.2,33.7C60.6,45.4,51,55.8,39.9,64.4C28.8,73,16.2,79.8,2.6,75.3C-11,70.8,-25.6,55,-38.7,42.5C-51.8,30,-63.4,20.8,-69.3,8.7C-75.2,-3.4,-75.4,-18.4,-68.8,-31.6C-62.2,-44.8,-48.8,-56.2,-35.4,-63.8C-22,-71.4,-8.6,-75.2,5.2,-84.2C19,-93.2,30.5,-107.4,44.7,-76.4Z" transform="translate(100 100)" />
                   </svg>
             </div>
             
             <PhoneMockup>
                 <!-- Mockup Content -->
-                <div class="flex flex-col h-full p-6 items-center pt-16">
-                    <h3 class="text-3xl font-serif text-center mb-2">Create your<br>first habit</h3>
-                    <div class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mb-6 mt-4">
-                        <span class="text-2xl">☀️</span>
+                <div class="flex flex-col h-full p-6 pt-16">
+                    <div class="text-xs text-gray-500 uppercase tracking-widest mb-4">Today's Focus</div>
+                    <h3 class="text-2xl font-serif mb-6">Launch product website</h3>
+                    <div class="space-y-3 mb-6">
+                        <div class="flex items-center gap-3 p-3 bg-white rounded-lg border border-gray-200">
+                            <div class="w-4 h-4 rounded border-2 border-primary-500"></div>
+                            <span class="text-sm">Review design mockups</span>
+                            <span class="text-xs text-gray-400 ml-auto">2pm</span>
+                        </div>
+                        <div class="flex items-center gap-3 p-3 bg-white rounded-lg border border-gray-200">
+                            <div class="w-4 h-4 rounded border-2 border-gray-300"></div>
+                            <span class="text-sm">Write homepage copy</span>
+                            <span class="text-xs text-gray-400 ml-auto">4pm</span>
+                        </div>
                     </div>
-                    <button class="bg-black text-white px-8 py-3 rounded-full w-full font-medium mt-auto mb-12">
-                        Create Habit ->
-                    </button>
+                    <div class="mt-auto mb-12 p-4 bg-primary-50 rounded-lg border border-primary-200">
+                        <p class="text-xs font-medium text-primary-900">💬 Check-in from your coach</p>
+                        <p class="text-xs text-primary-700 mt-1">How's the website progress?</p>
+                    </div>
                 </div>
             </PhoneMockup>
         </div>
     </section>
 
-    <!-- Dark Section (Laws) -->
+    <!-- Dark Section (Principles) -->
     <section class="bg-[#1C1C1C] text-white py-24 overflow-hidden relative">
         <div class="max-w-7xl mx-auto px-6 mb-16">
             <p class="text-xl md:text-2xl font-serif max-w-lg leading-relaxed text-gray-300">
-                Atoms is the only app built on scientifically-backed laws of habit change.
+                Actimate is built on three core principles that turn scattered focus into consistent achievement.
             </p>
         </div>
 
@@ -62,17 +87,17 @@
                  <div class="inline-flex items-baseline">
                     <span class="text-[120px] md:text-[180px] font-serif font-light text-transparent stroke-text opacity-50" style="-webkit-text-stroke: 1px rgba(255,255,255,0.5);">1.</span>
                     <div class="flex flex-col ml-4">
-                        <span class="text-5xl md:text-7xl font-serif">Make it</span>
-                        <span class="text-5xl md:text-7xl font-serif font-bold">obvious.</span>
+                        <span class="text-5xl md:text-7xl font-serif">AI-powered</span>
+                        <span class="text-5xl md:text-7xl font-serif font-bold">scheduling.</span>
                     </div>
                  </div>
                  
                  <!-- Item 2 -->
                  <div class="inline-flex items-baseline ml-12 md:ml-24">
-                    <span class="text-[120px] md:text-[180px] font-serif font-light text-[#E6D8C0]">2.</span>
+                    <span class="text-[120px] md:text-[180px] font-serif font-light" style="color: #FF6D22;">2.</span>
                     <div class="flex flex-col ml-4">
-                        <span class="text-5xl md:text-7xl font-serif">Make it</span>
-                        <span class="text-5xl md:text-7xl font-serif font-bold">attractive.</span>
+                        <span class="text-5xl md:text-7xl font-serif">Proactive</span>
+                        <span class="text-5xl md:text-7xl font-serif font-bold">accountability.</span>
                     </div>
                  </div>
 
@@ -101,21 +126,23 @@
             <!-- Feature 1 -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center group">
                 <div>
-                    <h3 class="text-5xl md:text-6xl font-serif mb-6 group-hover:italic transition-all duration-300">We know<br>what really<br>works</h3>
+                    <h3 class="text-5xl md:text-6xl font-serif mb-6 group-hover:italic transition-all duration-300">Built for<br>ADHD brains<br>& busy lives</h3>
                     <p class="text-gray-600 max-w-xs text-sm leading-relaxed">
-                        We don't rely on guesswork. Our principles of habit change make it obvious, attractive, easy, and satisfying.
+                        Designed specifically for professionals and parents who struggle with follow-through. Our AI understands your unique challenges and adapts to your needs.
                     </p>
                     <div class="mt-4 text-xs text-gray-400">→</div>
                 </div>
                 <div class="flex justify-center">
-                    <!-- Illustration Placeholder: Stacked Rocks -->
+                    <!-- Illustration: Brain/Focus -->
                     <div class="w-64 h-64 relative">
                         <svg viewBox="0 0 200 200" class="w-full h-full stroke-black fill-none stroke-[1.5]">
-                            <path d="M60,140 Q50,120 70,110 Q90,100 110,110 Q130,120 120,140 Q110,160 90,160 Q70,160 60,140 Z" />
-                            <path d="M75,105 Q65,85 85,75 Q105,65 125,75 Q145,85 135,105 Q125,125 105,125 Q85,125 75,105 Z" />
-                            <path d="M90,70 Q80,50 100,40 Q120,30 140,40 Q160,50 150,70 Q140,90 120,90 Q100,90 90,70 Z" />
+                            <circle cx="100" cy="100" r="60" />
+                            <path d="M70,100 Q100,70 130,100" />
+                            <path d="M70,100 Q100,130 130,100" />
+                            <circle cx="85" cy="90" r="5" class="fill-black" />
+                            <circle cx="115" cy="90" r="5" class="fill-black" />
                         </svg>
-                        <div class="absolute -z-10 top-10 right-10 w-40 h-40 bg-[#F2EBE0] rounded-full opacity-50 blur-xl"></div>
+                        <div class="absolute -z-10 top-10 right-10 w-40 h-40 bg-primary-100 rounded-full opacity-50 blur-xl"></div>
                     </div>
                 </div>
             </div>
@@ -123,22 +150,27 @@
             <!-- Feature 2 -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center group">
                 <div>
-                    <h3 class="text-5xl md:text-6xl font-serif mb-6 group-hover:italic transition-all duration-300">We meet<br>you where<br>you are</h3>
+                    <h3 class="text-5xl md:text-6xl font-serif mb-6 group-hover:italic transition-all duration-300">Your calendar,<br>intelligently<br>organized</h3>
                     <p class="text-gray-600 max-w-xs text-sm leading-relaxed">
-                        Whether you're just starting or already on a roll, we have the right tools to help you find your balance.
+                        Seamlessly integrates with your existing calendar. Our AI automatically finds time for your goals and adjusts as life happens.
                     </p>
                     <div class="mt-4 text-xs text-gray-400">→</div>
                 </div>
                 <div class="flex justify-center">
-                    <!-- Illustration Placeholder: Handshake -->
+                    <!-- Illustration: Calendar -->
                     <div class="w-64 h-64 relative">
                         <svg viewBox="0 0 200 200" class="w-full h-full stroke-black fill-none stroke-[1.5]">
-                            <path d="M40,100 L80,100 L100,80 L120,100 L160,100" />
-                            <path d="M40,120 L80,120 L100,140 L120,120 L160,120" />
-                             <!-- Simplified abstract representation -->
-                             <circle cx="100" cy="110" r="40" class="stroke-black" />
+                            <rect x="40" y="50" width="120" height="100" rx="8" />
+                            <path d="M40,80 L160,80" />
+                            <path d="M70,50 L70,40" />
+                            <path d="M130,50 L130,40" />
+                            <circle cx="70" cy="100" r="4" class="fill-black" />
+                            <circle cx="100" cy="100" r="4" class="fill-black" />
+                            <circle cx="130" cy="100" r="4" class="fill-black" />
+                            <circle cx="70" cy="120" r="4" class="fill-black" />
+                            <circle cx="100" cy="120" r="4" class="fill-primary-500" />
                         </svg>
-                         <div class="absolute -z-10 top-10 right-10 w-40 h-40 bg-[#F2EBE0] rounded-full opacity-50 blur-xl"></div>
+                         <div class="absolute -z-10 top-10 right-10 w-40 h-40 bg-primary-100 rounded-full opacity-50 blur-xl"></div>
                     </div>
                 </div>
             </div>
@@ -237,9 +269,9 @@
     <!-- Dark Cards Section -->
     <section class="py-24">
         <div class="max-w-4xl mx-auto px-6 mb-16">
-            <h2 class="text-4xl font-serif">Atoms is designed to help you<br>take action.</h2>
+            <h2 class="text-4xl font-serif">Actimate is designed to help you<br>make progress on what matters.</h2>
             <p class="text-gray-500 mt-4 max-w-md">
-                Our core features are designed to help you build power habits, track progress, and make lasting change.
+                Our core features combine AI-powered scheduling with proactive accountability to keep you on track.
             </p>
         </div>
 
@@ -249,22 +281,26 @@
                 <div class="relative z-10 w-full md:w-1/2 flex justify-center">
                      <PhoneMockup>
                          <div class="p-6 flex flex-col h-full bg-white text-black">
-                             <div class="text-xs text-gray-500 uppercase tracking-widest mb-4">Identity</div>
-                             <h4 class="text-xl font-serif">I am a reader</h4>
-                             <div class="mt-4 space-y-2">
-                                 <div class="p-3 bg-gray-50 rounded-lg flex items-center gap-3">
-                                     <div class="w-4 h-4 rounded-full border border-gray-300"></div>
-                                     <span class="text-sm">Read 10 pages</span>
+                             <div class="text-xs text-gray-500 uppercase tracking-widest mb-4">This Week</div>
+                             <h4 class="text-xl font-serif mb-4">Your Schedule</h4>
+                             <div class="space-y-2">
+                                 <div class="p-3 bg-primary-50 rounded-lg border border-primary-200">
+                                     <span class="text-sm font-medium">Product Planning</span>
+                                     <p class="text-xs text-gray-500 mt-1">Mon 9:00 AM - 10:30 AM</p>
+                                 </div>
+                                 <div class="p-3 bg-gray-50 rounded-lg border border-gray-200">
+                                     <span class="text-sm">Team Meeting</span>
+                                     <p class="text-xs text-gray-500 mt-1">Mon 2:00 PM - 3:00 PM</p>
                                  </div>
                              </div>
                          </div>
                      </PhoneMockup>
                 </div>
                 <div class="w-full md:w-1/2 relative z-10">
-                    <p class="text-xs uppercase tracking-widest text-gray-400 mb-2">Not just habits</p>
-                    <h3 class="text-4xl md:text-5xl font-serif mb-6">Identity-based<br>habits</h3>
+                    <p class="text-xs uppercase tracking-widest text-gray-400 mb-2">Smart Scheduling</p>
+                    <h3 class="text-4xl md:text-5xl font-serif mb-6">AI finds time<br>for your goals</h3>
                     <p class="text-gray-400 leading-relaxed">
-                        Most apps focus on outcome-based habits. We help you focus on identity-based habits. It's not about what you want to achieve. It's about who you wish to become.
+                        Our AI analyzes your calendar and automatically schedules time for your most important goals. No more hoping you'll find time—Actimate makes it happen.
                     </p>
                 </div>
                 <!-- Abstract BG -->
@@ -275,20 +311,23 @@
             <div class="bg-[#1C1C1C] rounded-[2rem] p-12 md:p-20 text-white relative overflow-hidden flex flex-col md:flex-row-reverse items-center gap-12">
                 <div class="relative z-10 w-full md:w-1/2 flex justify-center">
                      <PhoneMockup>
-                         <div class="p-6 flex flex-col h-full bg-white text-black items-center justify-center">
-                             <div class="w-20 h-20 rounded-full bg-orange-100 flex items-center justify-center mb-4">
-                                 <span class="text-2xl">🏆</span>
+                         <div class="p-6 flex flex-col h-full bg-white text-black">
+                             <div class="bg-primary-500 text-white p-4 rounded-xl mb-4">
+                                 <p class="text-sm font-medium">💪 Great progress today!</p>
+                                 <p class="text-xs opacity-90 mt-1">You completed 3 of 3 scheduled goals.</p>
                              </div>
-                             <h4 class="text-xl font-serif text-center">Habit Master</h4>
-                             <p class="text-sm text-gray-500 text-center mt-2">100 Days Streak</p>
+                             <div class="mt-4 p-4 bg-gray-50 rounded-lg">
+                                 <p class="text-xs text-gray-500 mb-2">Tomorrow's Focus</p>
+                                 <p class="text-sm font-medium">Product roadmap review</p>
+                             </div>
                          </div>
                      </PhoneMockup>
                 </div>
                 <div class="w-full md:w-1/2 relative z-10">
-                    <p class="text-xs uppercase tracking-widest text-gray-400 mb-2">Supportive environment</p>
-                    <h3 class="text-4xl md:text-5xl font-serif mb-6">A journey with<br>support</h3>
+                    <p class="text-xs uppercase tracking-widest text-gray-400 mb-2">Proactive Coaching</p>
+                    <h3 class="text-4xl md:text-5xl font-serif mb-6">Your AI coach<br>checks in</h3>
                     <p class="text-gray-400 leading-relaxed">
-                        Atoms connects you with people on the same journey. Share progress, celebrate wins, and find accountability partners.
+                        Actimate doesn't just schedule—it actively coaches you. Get timely check-ins, encouragement, and accountability when you need it most.
                     </p>
                 </div>
             </div>
@@ -298,78 +337,85 @@
                 <div class="relative z-10 w-full md:w-1/2 flex justify-center">
                      <PhoneMockup>
                          <div class="p-6 flex flex-col h-full bg-white text-black">
-                             <div class="bg-black text-white p-4 rounded-xl mb-4">
-                                 <p class="text-sm font-medium">Time to read!</p>
-                                 <p class="text-xs text-gray-400 mt-1">It's 8:00 PM. Grab your book.</p>
+                             <div class="text-xs text-gray-500 uppercase tracking-widest mb-4">Connected Calendars</div>
+                             <div class="space-y-3">
+                                 <div class="flex items-center gap-3 p-3 bg-white rounded-lg border border-gray-200">
+                                     <div class="w-8 h-8 bg-blue-100 rounded flex items-center justify-center text-xs">📅</div>
+                                     <span class="text-sm">Google Calendar</span>
+                                     <span class="text-xs text-green-600 ml-auto">✓ Synced</span>
+                                 </div>
                              </div>
                          </div>
                      </PhoneMockup>
                 </div>
                 <div class="w-full md:w-1/2 relative z-10">
-                    <p class="text-xs uppercase tracking-widest text-gray-400 mb-2">Habit reminders</p>
-                    <h3 class="text-4xl md:text-5xl font-serif mb-6">Everyone<br>needs a nudge</h3>
+                    <p class="text-xs uppercase tracking-widest text-gray-400 mb-2">Calendar Integration</p>
+                    <h3 class="text-4xl md:text-5xl font-serif mb-6">Works with<br>your calendar</h3>
                     <p class="text-gray-400 leading-relaxed">
-                        Set up reminders that work for you. Never miss a habit again with our flexible notification system.
+                        Seamlessly integrates with Google Calendar, Outlook, and Apple Calendar. Actimate works within your existing workflow.
                     </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Daily Lessons -->
+    <!-- How It Works -->
     <section class="py-24 bg-[#FCFAF7]">
         <div class="max-w-7xl mx-auto px-6">
-            <h2 class="text-3xl font-serif mb-12">Daily Lessons</h2>
+            <h2 class="text-3xl font-serif mb-12">How Actimate Works</h2>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                <!-- Lesson 1 -->
+                <!-- Step 1 -->
                 <div class="bg-white p-8 rounded-xl aspect-[4/5] flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow">
-                    <div class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center text-xs">01</div>
-                    <h3 class="text-2xl font-serif">Make Your Habits Fun</h3>
-                    <div class="text-xs text-gray-400 uppercase tracking-widest">Read Lesson -></div>
+                    <div class="w-8 h-8 bg-primary-100 rounded-full flex items-center justify-center text-xs font-bold text-primary-600">01</div>
+                    <h3 class="text-2xl font-serif">Set Your Goals</h3>
+                    <div class="text-xs text-gray-400 uppercase tracking-widest">Connect & Define</div>
                 </div>
-                 <!-- Lesson 2 -->
+                 <!-- Step 2 -->
                 <div class="bg-white p-8 rounded-xl aspect-[4/5] flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow">
-                    <div class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center text-xs">02</div>
-                    <h3 class="text-2xl font-serif">Aim to Be Great in 10 Years</h3>
-                    <div class="text-xs text-gray-400 uppercase tracking-widest">Read Lesson -></div>
+                    <div class="w-8 h-8 bg-primary-100 rounded-full flex items-center justify-center text-xs font-bold text-primary-600">02</div>
+                    <h3 class="text-2xl font-serif">AI Schedules Time</h3>
+                    <div class="text-xs text-gray-400 uppercase tracking-widest">Automatic Planning</div>
                 </div>
-                 <!-- Lesson 3 -->
+                 <!-- Step 3 -->
                 <div class="bg-white p-8 rounded-xl aspect-[4/5] flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow">
-                    <div class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center text-xs">03</div>
-                    <h3 class="text-2xl font-serif">Start Small</h3>
-                    <div class="text-xs text-gray-400 uppercase tracking-widest">Read Lesson -></div>
+                    <div class="w-8 h-8 bg-primary-100 rounded-full flex items-center justify-center text-xs font-bold text-primary-600">03</div>
+                    <h3 class="text-2xl font-serif">Get Coached</h3>
+                    <div class="text-xs text-gray-400 uppercase tracking-widest">Stay Accountable</div>
                 </div>
-                 <!-- Lesson 4 -->
+                 <!-- Step 4 -->
                 <div class="bg-white p-8 rounded-xl aspect-[4/5] flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow">
-                    <div class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center text-xs">04</div>
-                    <h3 class="text-2xl font-serif">Everything is Imperfect</h3>
-                    <div class="text-xs text-gray-400 uppercase tracking-widest">Read Lesson -></div>
+                    <div class="w-8 h-8 bg-primary-100 rounded-full flex items-center justify-center text-xs font-bold text-primary-600">04</div>
+                    <h3 class="text-2xl font-serif">Make Progress</h3>
+                    <div class="text-xs text-gray-400 uppercase tracking-widest">Achieve Your Goals</div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Book Section -->
+    <!-- Founder Section -->
     <section class="py-32 max-w-5xl mx-auto px-6">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
             <div>
-                <p class="text-2xl font-serif leading-relaxed mb-8">
-                    Get started today with the app based on the NYT best-seller that has already helped over 20 million people.
+                <p class="text-xs uppercase tracking-widest text-gray-500 mb-4">Built by someone who gets it</p>
+                <h2 class="text-4xl font-serif mb-6">From personal struggle to powerful solution</h2>
+                <p class="text-gray-600 leading-relaxed mb-8">
+                    Actimate was created by Kevin Jordan, who built it to solve his own challenges with ADHD while juggling ambitious goals, building companies, and raising a young family. If you've ever felt overwhelmed by your schedule, Actimate was built for you.
                 </p>
                 <AppButtons />
             </div>
             <div class="flex justify-center relative">
-                <!-- Book Cover Placeholder -->
-                <div class="w-64 aspect-[2/3] bg-[#EAE4D3] shadow-2xl relative flex flex-col items-center justify-center text-center p-6 border-l-4 border-gray-200">
-                    <p class="text-xs uppercase tracking-widest text-gray-500 mb-4">New York Times Bestseller</p>
-                    <h3 class="text-3xl font-serif font-bold text-gray-800 mb-1">Atomic<br>Habits</h3>
-                    <p class="text-sm text-gray-600 mt-4">Tiny Changes,<br>Remarkable Results</p>
-                    <div class="mt-auto pt-8 text-sm font-bold text-gray-800">James Clear</div>
-                    
-                    <!-- Decorative dots -->
-                    <div class="absolute top-4 right-4 w-2 h-2 bg-orange-400 rounded-full"></div>
+                <!-- Founder Illustration -->
+                <div class="w-64 h-64 relative">
+                    <svg viewBox="0 0 200 200" class="w-full h-full stroke-black fill-none stroke-[1.5]">
+                        <circle cx="100" cy="80" r="30" />
+                        <path d="M70,110 L70,170" />
+                        <path d="M130,110 L130,170" />
+                        <path d="M70,130 L50,150" />
+                        <path d="M130,130 L150,150" />
+                        <path d="M70,110 L130,110 L130,170 L70,170 Z" />
+                    </svg>
+                    <div class="absolute -z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-primary-100 rounded-full opacity-50 blur-2xl"></div>
                 </div>
-                 <div class="absolute -z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-[#F2EBE0] rounded-full opacity-50 blur-2xl"></div>
             </div>
         </div>
     </section>
@@ -378,16 +424,16 @@
     <section class="bg-[#1C1C1C] text-white py-32">
         <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16">
             <div>
-                <h2 class="text-2xl font-serif mb-12">See what people are saying about Atoms</h2>
-                <h3 class="text-5xl md:text-7xl font-serif leading-tight">Love the<br>flexibility.</h3>
+                <h2 class="text-2xl font-serif mb-12">What early users are saying</h2>
+                <h3 class="text-5xl md:text-7xl font-serif leading-tight">Finally making<br>real progress.</h3>
             </div>
             <div class="flex flex-col justify-end">
                 <p class="text-gray-400 text-lg leading-relaxed mb-8">
-                    "The personalized focus of the habit you create make it unique and non-standardized. Minimalistic but inviting style UI. I never feel overwhelmed, making it a normal, human experience. Love the measurement/assessment and introspection. This program is encouraging but unobtrusive. Great job!"
+                    "As someone with ADHD, I've tried every productivity app out there. Actimate is different—it doesn't just remind me to do things, it actually helps me make time for them. The AI coaching feels like having a supportive accountability partner who understands my brain."
                 </p>
                 <div>
-                    <p class="font-bold">User from USA</p>
-                    <p class="text-sm text-gray-500">App Store Review</p>
+                    <p class="font-bold">Sarah M.</p>
+                    <p class="text-sm text-gray-500">Product Manager, Early Access User</p>
                 </div>
                 <div class="mt-12 flex justify-end">
                     <button class="text-white hover:opacity-70 transition-opacity">
@@ -405,14 +451,24 @@
         <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div class="relative z-10">
                 <p class="text-3xl font-serif leading-relaxed mb-8 max-w-md">
-                    Share Atoms with a friend and support each other in making tiny changes for remarkable results.
+                    Ready to turn your chaotic schedule into intentional progress?
                 </p>
                 <AppButtons />
             </div>
             <div class="flex justify-center relative z-10">
                  <PhoneMockup>
-                     <div class="flex items-center justify-center h-full bg-white">
-                         <h1 class="text-4xl font-serif">Atoms.</h1>
+                     <div class="flex flex-col items-center justify-center h-full bg-white p-6">
+                         <div class="w-16 h-16 text-primary-500 mb-4">
+                             <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path
+                                     fill-rule="evenodd"
+                                     clip-rule="evenodd"
+                                     d="M6.99251 12.196C6.85314 12.5757 6.62925 12.9208 6.33682 13.2067H6.33835C6.00191 13.5351 5.58566 13.7756 5.12816 13.9059C4.67065 14.0362 4.18671 14.0522 3.72118 13.9523C3.25564 13.8524 2.82357 13.64 2.46501 13.3345C2.10645 13.0291 1.83299 12.6406 1.66998 12.2051C1.50697 11.7696 1.45969 11.3012 1.5325 10.8432C1.60532 10.3852 1.79587 9.95244 2.08653 9.58516C2.37718 9.21781 2.75852 8.9277 3.1952 8.74177C3.63188 8.55585 4.10979 8.48002 4.58462 8.52142L4.57074 8.50792C5.0567 8.54782 5.54575 8.48407 6.00378 8.32124C6.4618 8.15846 6.87776 7.90043 7.2226 7.56521C7.56746 7.22998 7.83285 6.82564 8.00036 6.38041C8.16786 5.93517 8.23344 5.45976 8.1924 4.98737L8.20628 5.00087C8.15181 4.43594 8.27796 3.86844 8.56753 3.37575C8.85701 2.88307 9.29579 2.48919 9.82407 2.24782C10.3523 2.00645 10.9443 1.92933 11.5192 2.02701C12.0942 2.12467 12.6243 2.39237 13.037 2.79358C13.4497 3.19479 13.7251 3.70999 13.8256 4.26892C13.926 4.82785 13.8467 5.4033 13.5984 5.9168C13.3501 6.4303 12.9449 6.85685 12.4381 7.13828C11.9313 7.41971 11.3474 7.54233 10.7663 7.4894L10.781 7.5029C10.2949 7.46279 9.80563 7.52632 9.34741 7.68904C8.88919 7.85176 8.47309 8.10975 8.12805 8.44499C7.78301 8.78025 7.51742 9.18466 7.34983 9.63001C7.18224 10.0754 7.11669 10.551 7.15774 11.0235L7.14309 11.01C7.1833 11.4112 7.13189 11.8162 6.99251 12.196ZM11.5077 14.7121L11.493 14.6986C11.9061 14.739 12.3232 14.6897 12.7143 14.5543C13.1053 14.4188 13.4605 14.2007 13.7542 13.9154C14.0477 13.6302 14.2726 13.285 14.4121 12.905C14.5518 12.525 14.6028 12.1196 14.5615 11.718L14.5762 11.7315C14.5351 11.2591 14.6007 10.7838 14.7681 10.3385C14.9356 9.89327 15.2011 9.48893 15.5459 9.15368C15.8908 8.8185 16.3068 8.56042 16.7648 8.39767C17.2228 8.23481 17.7118 8.17111 18.1978 8.21099L18.1832 8.19749C18.7645 8.25059 19.3485 8.12801 19.8556 7.84656C20.3627 7.56511 20.7681 7.13845 21.0165 6.62479C21.265 6.11114 21.3444 5.53548 21.2439 4.97634C21.1435 4.4172 20.868 3.9018 20.4551 3.50044C20.0422 3.09909 19.512 2.8313 18.9368 2.73364C18.3616 2.63596 17.7695 2.71315 17.241 2.95467C16.7126 3.19618 16.2737 3.59027 15.9842 4.08319C15.6946 4.57609 15.5685 5.14383 15.6232 5.70895L15.6093 5.6947C15.6504 6.16712 15.585 6.64259 15.4175 7.08788C15.2501 7.53318 14.9846 7.93758 14.6398 8.27287C14.2949 8.60805 13.8789 8.86612 13.4208 9.02888C12.9627 9.19163 12.4736 9.25523 11.9876 9.21526L12.0015 9.22951C11.5885 9.18908 11.1713 9.23836 10.7803 9.37381C10.3893 9.50919 10.034 9.72744 9.74039 10.0127C9.44674 10.2979 9.22199 10.6431 9.08234 11.0231C8.94276 11.4031 8.89176 11.8085 8.93304 12.2101L8.91915 12.1966C8.96005 12.6689 8.89439 13.1443 8.72688 13.5895C8.5593 14.0346 8.29389 14.4389 7.94908 14.7741C7.60425 15.1093 7.18835 15.3673 6.73039 15.5302C6.27242 15.693 5.78342 15.7569 5.29749 15.7171L5.31138 15.7306C4.73003 15.6775 4.14599 15.8001 3.63892 16.0815C3.13186 16.363 2.72644 16.7896 2.478 17.3033C2.22954 17.817 2.15013 18.3926 2.25061 18.9518C2.35109 19.5109 2.62657 20.0263 3.03945 20.4276C3.45234 20.829 3.98253 21.0968 4.55773 21.1944C5.13293 21.2921 5.72512 21.2149 6.25353 20.9734C6.78193 20.7319 7.22085 20.3379 7.51038 19.8449C7.79994 19.352 7.92601 18.7843 7.87139 18.2191L7.88605 18.2326C7.845 17.7602 7.91058 17.2849 8.07809 16.8396C8.24551 16.3944 8.511 15.99 8.85581 15.6548C9.20069 15.3196 9.61664 15.0615 10.0746 14.8988C10.5327 14.7359 11.0217 14.6722 11.5077 14.7121ZM17.1996 10.7633C16.9071 11.0493 16.6832 11.3944 16.5437 11.7741C16.4042 12.1538 16.3526 12.5587 16.3925 12.9601L16.3786 12.9466C16.4197 13.419 16.3541 13.8944 16.1866 14.3396C16.0191 14.7849 15.7537 15.1892 15.4089 15.5244C15.064 15.8596 14.648 16.1177 14.19 16.2804C13.732 16.4433 13.2429 16.507 12.757 16.4671L12.7708 16.4806C12.1896 16.4281 11.6057 16.551 11.0989 16.8328C10.5921 17.1145 10.1871 17.5414 9.93902 18.0551C9.69097 18.5689 9.61188 19.1444 9.71265 19.7035C9.81349 20.2625 10.0892 20.7777 10.5022 21.1788C10.9152 21.5799 11.4454 21.8474 12.0205 21.9448C12.5957 22.0423 13.1877 21.9649 13.716 21.7234C14.2443 21.4817 14.683 21.0877 14.9724 20.5947C15.2618 20.1018 15.3878 19.5342 15.3332 18.9692L15.3478 18.9827C15.3068 18.5103 15.3723 18.0349 15.5398 17.5896C15.7073 17.1444 15.9728 16.7401 16.3176 16.4048C16.6625 16.0696 17.0784 15.8115 17.5364 15.6488C17.9945 15.486 18.4835 15.4222 18.9695 15.4621L18.9548 15.4486C19.4296 15.4901 19.9076 15.4144 20.3444 15.2286C20.7811 15.0427 21.1625 14.7527 21.4533 14.3854C21.744 14.0181 21.9347 13.5854 22.0075 13.1274C22.0805 12.6694 22.0332 12.2009 21.8703 11.7653C21.7073 11.3298 21.4339 10.9413 21.0754 10.6358C20.7168 10.3303 20.2848 10.1178 19.8192 10.0179C19.3536 9.91795 18.8697 9.93385 18.4121 10.0641C17.9546 10.1945 17.5383 10.4349 17.2019 10.7633H17.1996Z"
+                                     fill="currentColor"
+                                 />
+                             </svg>
+                         </div>
+                         <h1 class="text-3xl font-serif">Actimate</h1>
                      </div>
                  </PhoneMockup>
             </div>
@@ -427,34 +483,27 @@
             <div class="mb-16">
                 <!-- Big Logo -->
                  <div class="relative inline-block">
-                    <span class="text-[120px] md:text-[180px] font-serif leading-none">Atoms</span>
-                    <span class="text-[120px] md:text-[180px] font-serif leading-none text-red-600">.</span>
-                    <!-- Apple Illustration overlay on the 'o' if possible, or just use text for now as requested 1:1 but simplified -->
-                    <!-- The screenshot shows an apple replacing the 'o' or near it. Let's try to make the 'o' an apple -->
-                     <div class="absolute top-[45%] left-[68%] -translate-x-1/2 -translate-y-1/2 w-[90px] h-[100px] md:w-[130px] md:h-[140px]">
-                         <!-- Apple SVG -->
-                         <svg viewBox="0 0 100 120" class="w-full h-full fill-[#E84E36]">
-                             <path d="M50,30 C30,30 10,40 10,70 C10,100 30,115 50,115 C70,115 90,100 90,70 C90,40 70,30 50,30 Z" />
-                             <path d="M50,30 C50,30 55,10 45,5" stroke="#3E2723" stroke-width="3" fill="none"/>
-                         </svg>
-                     </div>
+                    <span class="text-[120px] md:text-[180px] font-serif leading-none">Actimate</span>
+                    <span class="text-[120px] md:text-[180px] font-serif leading-none text-primary-500">.</span>
                  </div>
             </div>
 
             <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-16 text-sm text-gray-600">
                 <div class="flex flex-col gap-3 text-left md:text-center">
-                    <span class="font-bold text-gray-900 uppercase tracking-widest text-xs mb-2">Introduction</span>
-                    <a href="#">Method</a>
-                    <a href="#">Story</a>
+                    <span class="font-bold text-gray-900 uppercase tracking-widest text-xs mb-2">Product</span>
+                    <a href="#">Features</a>
+                    <a href="#">How It Works</a>
+                    <a href="#">Pricing</a>
                 </div>
                 <div class="flex flex-col gap-3 text-left md:text-center">
-                    <span class="font-bold text-gray-900 uppercase tracking-widest text-xs mb-2">Coaching</span>
-                    <a href="#">1-on-1 Coaching</a>
+                    <span class="font-bold text-gray-900 uppercase tracking-widest text-xs mb-2">Resources</span>
+                    <a href="#">Blog</a>
+                    <a href="#">ADHD Guide</a>
                     <a href="#">FAQ</a>
                 </div>
                  <div class="flex flex-col gap-3 text-left md:text-center">
                     <span class="font-bold text-gray-900 uppercase tracking-widest text-xs mb-2">Company</span>
-                    <a href="#">Newsletter</a>
+                    <a href="#">About</a>
                     <a href="#">Contact</a>
                 </div>
                  <div class="flex flex-col gap-3 text-left md:text-center">
@@ -466,7 +515,7 @@
 
             <div class="flex flex-col md:flex-row items-center justify-between w-full border-t border-gray-200 pt-12 gap-8">
                 <div class="text-xs text-gray-400">
-                    © 2024 Atoms Inc.
+                    © 2024 Actimate Inc.
                 </div>
                 <div class="flex gap-6">
                     <!-- Social Icons -->
