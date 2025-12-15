@@ -209,127 +209,85 @@
     </section>
 
     <!-- Why we're different -->
-    <section class="py-32 max-w-5xl mx-auto px-6">
-        <div class="text-center mb-24">
-            <p class="text-sm uppercase tracking-widest text-gray-500">Why we're different</p>
+    <section class="py-32 max-w-6xl mx-auto px-6">
+        <div class="text-center mb-12">
+            <h2 class="text-4xl md:text-5xl font-serif mb-6">Built for how ADHD brains actually work</h2>
+            <p class="text-gray-600 max-w-2xl mx-auto leading-relaxed">
+                Actimate isn't another productivity app that assumes you'll just "try harder." It's built on proven systems (GTD + Atomic Habits) with an AI partner that provides the external accountability your brain needs.
+            </p>
         </div>
 
-        <div class="space-y-32">
-            <!-- Feature 1 -->
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center group">
-                <div>
-                    <h3 class="text-5xl md:text-6xl font-serif mb-6 group-hover:italic transition-all duration-300">Built for<br>ADHD brains<br>& busy lives</h3>
-                    <p class="text-gray-600 max-w-xs text-sm leading-relaxed">
-                        Designed specifically for professionals and parents who struggle with follow-through. Our AI understands your unique challenges and adapts to your needs.
-                    </p>
-                    <div class="mt-4 text-xs text-gray-400">→</div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-20">
+            <!-- Card 1: One thing at a time -->
+            <div class="bg-white p-8 rounded-xl border border-gray-200 hover:border-primary-300 transition-all duration-300">
+                <div class="w-12 h-12 text-primary-500 mb-6">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-full h-full">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <circle cx="12" cy="12" r="6"></circle>
+                        <circle cx="12" cy="12" r="2"></circle>
+                    </svg>
                 </div>
-                <div class="flex justify-center">
-                    <!-- Illustration: Brain/Focus -->
-                    <div class="w-64 h-64 relative">
-                        <svg viewBox="0 0 200 200" class="w-full h-full stroke-black fill-none stroke-[1.5]">
-                            <circle cx="100" cy="100" r="60" />
-                            <path d="M70,100 Q100,70 130,100" />
-                            <path d="M70,100 Q100,130 130,100" />
-                            <circle cx="85" cy="90" r="5" class="fill-black" />
-                            <circle cx="115" cy="90" r="5" class="fill-black" />
-                        </svg>
-                        <div class="absolute -z-10 top-10 right-10 w-40 h-40 bg-primary-100 rounded-full opacity-50 blur-xl"></div>
-                    </div>
-                </div>
+                <h3 class="text-2xl font-serif mb-4">One thing at a time</h3>
+                <p class="text-gray-600 leading-relaxed">
+                    No overwhelming lists. Actimate shows you the single next action for each goal—so you always know exactly what to do.
+                </p>
             </div>
 
-            <!-- Feature 2 -->
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center group">
-                <div>
-                    <h3 class="text-5xl md:text-6xl font-serif mb-6 group-hover:italic transition-all duration-300">Your calendar,<br>intelligently<br>organized</h3>
-                    <p class="text-gray-600 max-w-xs text-sm leading-relaxed">
-                        Seamlessly integrates with your existing calendar. Our AI automatically finds time for your goals and adjusts as life happens.
-                    </p>
-                    <div class="mt-4 text-xs text-gray-400">→</div>
+            <!-- Card 2: Accountability that actually works -->
+            <div class="bg-white p-8 rounded-xl border border-gray-200 hover:border-primary-300 transition-all duration-300">
+                <div class="w-12 h-12 text-primary-500 mb-6">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-full h-full">
+                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="9" cy="7" r="4"></circle>
+                        <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                        <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                    </svg>
                 </div>
-                <div class="flex justify-center">
-                    <!-- Illustration: Calendar -->
-                    <div class="w-64 h-64 relative">
-                        <svg viewBox="0 0 200 200" class="w-full h-full stroke-black fill-none stroke-[1.5]">
-                            <rect x="40" y="50" width="120" height="100" rx="8" />
-                            <path d="M40,80 L160,80" />
-                            <path d="M70,50 L70,40" />
-                            <path d="M130,50 L130,40" />
-                            <circle cx="70" cy="100" r="4" class="fill-black" />
-                            <circle cx="100" cy="100" r="4" class="fill-black" />
-                            <circle cx="130" cy="100" r="4" class="fill-black" />
-                            <circle cx="70" cy="120" r="4" class="fill-black" />
-                            <circle cx="100" cy="120" r="4" class="fill-primary-500" />
-                        </svg>
-                         <div class="absolute -z-10 top-10 right-10 w-40 h-40 bg-primary-100 rounded-full opacity-50 blur-xl"></div>
-                    </div>
-                </div>
+                <h3 class="text-2xl font-serif mb-4">Accountability that actually works</h3>
+                <p class="text-gray-600 leading-relaxed">
+                    Pia, your AI accountability partner, checks in on your progress and follows up when you go quiet. No judgment, just support.
+                </p>
             </div>
 
-            <!-- Feature 3 -->
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center group">
-                <div>
-                    <h3 class="text-5xl md:text-6xl font-serif mb-6 group-hover:italic transition-all duration-300">We evolve<br>as you<br>evolve</h3>
-                    <p class="text-gray-600 max-w-xs text-sm leading-relaxed">
-                        Building tiny habits leads to remarkable results. We scale up just like you do, one step at a time.
-                    </p>
-                    <div class="mt-4 text-xs text-gray-400">→</div>
+            <!-- Card 3: Everything connected -->
+            <div class="bg-white p-8 rounded-xl border border-gray-200 hover:border-primary-300 transition-all duration-300">
+                <div class="w-12 h-12 text-primary-500 mb-6">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-full h-full">
+                        <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                        <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                    </svg>
                 </div>
-                <div class="flex justify-center">
-                    <!-- Illustration Placeholder: Tools -->
-                    <div class="w-64 h-64 relative">
-                        <svg viewBox="0 0 200 200" class="w-full h-full stroke-black fill-none stroke-[1.5]">
-                            <path d="M50,150 L150,50" />
-                            <circle cx="150" cy="50" r="10" />
-                            <rect x="40" y="140" width="20" height="20" transform="rotate(45 50 150)" />
-                        </svg>
-                         <div class="absolute -z-10 top-10 right-10 w-40 h-40 bg-[#F2EBE0] rounded-full opacity-50 blur-xl"></div>
-                    </div>
-                </div>
-            </div>
-            
-             <!-- Feature 4 -->
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center group">
-                <div>
-                    <h3 class="text-5xl md:text-6xl font-serif mb-6 group-hover:italic transition-all duration-300">We're in it<br>for the<br>long-haul</h3>
-                    <p class="text-gray-600 max-w-xs text-sm leading-relaxed">
-                        We support you in creating habits that last, focusing on consistency over intensity.
-                    </p>
-                    <div class="mt-4 text-xs text-gray-400">→</div>
-                </div>
-                <div class="flex justify-center">
-                    <!-- Illustration Placeholder: Clock -->
-                    <div class="w-64 h-64 relative">
-                         <svg viewBox="0 0 200 200" class="w-full h-full stroke-black fill-none stroke-[1.5]">
-                            <circle cx="100" cy="100" r="50" />
-                            <path d="M100,100 L100,70" />
-                            <path d="M100,100 L120,110" />
-                            <path d="M90,40 L110,40" />
-                        </svg>
-                         <div class="absolute -z-10 top-10 right-10 w-40 h-40 bg-[#F2EBE0] rounded-full opacity-50 blur-xl"></div>
-                    </div>
-                </div>
+                <h3 class="text-2xl font-serif mb-4">Everything connected</h3>
+                <p class="text-gray-600 leading-relaxed">
+                    Goals, habits, tasks, and calendar in one place. Pia sees the full picture and helps you stay consistent across all of it.
+                </p>
             </div>
 
-             <!-- Feature 5 -->
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center group">
-                <div>
-                    <h3 class="text-5xl md:text-6xl font-serif mb-6 group-hover:italic transition-all duration-300">We know<br>what it<br>takes to<br>show up</h3>
-                    <p class="text-gray-600 max-w-xs text-sm leading-relaxed">
-                        We understand the ups and downs. We help you get back on track without shame or guilt.
-                    </p>
-                    <div class="mt-4 text-xs text-gray-400">→</div>
+            <!-- Card 4: Streaks you want to protect -->
+            <div class="bg-white p-8 rounded-xl border border-gray-200 hover:border-primary-300 transition-all duration-300">
+                <div class="w-12 h-12 text-primary-500 mb-6">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-full h-full">
+                        <circle cx="12" cy="8" r="7"></circle>
+                        <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                    </svg>
                 </div>
-                <div class="flex justify-center">
-                    <!-- Illustration Placeholder: Heart -->
-                    <div class="w-64 h-64 relative">
-                         <svg viewBox="0 0 200 200" class="w-full h-full stroke-black fill-none stroke-[1.5]">
-                            <path d="M100,160 C100,160 40,100 40,60 C40,30 70,30 100,60 C130,30 160,30 160,60 C160,100 100,160 100,160 Z" />
-                        </svg>
-                         <div class="absolute -z-10 top-10 right-10 w-40 h-40 bg-[#F2EBE0] rounded-full opacity-50 blur-xl"></div>
-                    </div>
+                <h3 class="text-2xl font-serif mb-4">Streaks you want to protect</h3>
+                <p class="text-gray-600 leading-relaxed">
+                    Visual progress tracking, milestone celebrations, and streak counters give your brain the dopamine hits it needs to keep going.
+                </p>
+            </div>
+
+            <!-- Card 5: Identity-based goals -->
+            <div class="bg-white p-8 rounded-xl border border-gray-200 hover:border-primary-300 transition-all duration-300">
+                <div class="w-12 h-12 text-primary-500 mb-6">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-full h-full">
+                        <polygon points="3 11 22 2 13 21 11 13 3 11"></polygon>
+                    </svg>
                 </div>
+                <h3 class="text-2xl font-serif mb-4">Identity-based goals</h3>
+                <p class="text-gray-600 leading-relaxed">
+                    Based on James Clear's Atomic Habits: link your habits to who you want to become, not just what you want to do.
+                </p>
             </div>
         </div>
     </section>
