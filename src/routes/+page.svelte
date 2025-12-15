@@ -11,20 +11,20 @@
     const principles = [
         {
             number: "1.",
-            title1: "AI-powered",
-            title2: "scheduling.",
+            title1: "Proactive",
+            title2: "accountability.",
             numberStyle: "-webkit-text-stroke: 1px rgba(255,255,255,0.5); color: transparent;"
         },
         {
             number: "2.",
-            title1: "Proactive",
-            title2: "accountability.",
+            title1: "Identity-based",
+            title2: "goals.",
             numberStyle: "color: #FF6D22;"
         },
         {
             number: "3.",
-            title1: "Continuous",
-            title2: "progress.",
+            title1: "Progress over",
+            title2: "perfection.",
             numberStyle: "color: #FFFFFF;"
         }
     ];
