@@ -219,75 +219,85 @@
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-20">
             <!-- Card 1: One thing at a time -->
-            <div class="bg-white p-8 rounded-xl border border-gray-200 hover:border-primary-300 transition-all duration-300">
-                <div class="w-12 h-12 text-primary-500 mb-6">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-full h-full">
+            <div class="p-8 flex items-start gap-6 hover:bg-gray-50 transition-all duration-300 rounded-xl">
+                <div class="flex-1">
+                    <h3 class="text-2xl font-serif mb-4">One thing at a time</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        No overwhelming lists. Actimate shows you the single next action for each goal—so you always know exactly what to do.
+                    </p>
+                </div>
+                <div class="w-16 h-16 text-primary-500 flex-shrink-0">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="w-full h-full">
                         <circle cx="12" cy="12" r="10"></circle>
                         <circle cx="12" cy="12" r="6"></circle>
                         <circle cx="12" cy="12" r="2"></circle>
                     </svg>
                 </div>
-                <h3 class="text-2xl font-serif mb-4">One thing at a time</h3>
-                <p class="text-gray-600 leading-relaxed">
-                    No overwhelming lists. Actimate shows you the single next action for each goal—so you always know exactly what to do.
-                </p>
             </div>
 
             <!-- Card 2: Accountability that actually works -->
-            <div class="bg-white p-8 rounded-xl border border-gray-200 hover:border-primary-300 transition-all duration-300">
-                <div class="w-12 h-12 text-primary-500 mb-6">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-full h-full">
+            <div class="p-8 flex items-start gap-6 hover:bg-gray-50 transition-all duration-300 rounded-xl">
+                <div class="flex-1">
+                    <h3 class="text-2xl font-serif mb-4">Accountability that actually works</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Pia, your AI accountability partner, checks in on your progress and follows up when you go quiet. No judgment, just support.
+                    </p>
+                </div>
+                <div class="w-16 h-16 text-primary-500 flex-shrink-0">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="w-full h-full">
                         <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
                         <circle cx="9" cy="7" r="4"></circle>
                         <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
                         <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
                     </svg>
                 </div>
-                <h3 class="text-2xl font-serif mb-4">Accountability that actually works</h3>
-                <p class="text-gray-600 leading-relaxed">
-                    Pia, your AI accountability partner, checks in on your progress and follows up when you go quiet. No judgment, just support.
-                </p>
             </div>
 
             <!-- Card 3: Everything connected -->
-            <div class="bg-white p-8 rounded-xl border border-gray-200 hover:border-primary-300 transition-all duration-300">
-                <div class="w-12 h-12 text-primary-500 mb-6">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-full h-full">
+            <div class="p-8 flex items-start gap-6 hover:bg-gray-50 transition-all duration-300 rounded-xl">
+                <div class="flex-1">
+                    <h3 class="text-2xl font-serif mb-4">Everything connected</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Goals, habits, tasks, and calendar in one place. Pia sees the full picture and helps you stay consistent across all of it.
+                    </p>
+                </div>
+                <div class="w-16 h-16 text-primary-500 flex-shrink-0">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="w-full h-full">
                         <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
                         <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
                     </svg>
                 </div>
-                <h3 class="text-2xl font-serif mb-4">Everything connected</h3>
-                <p class="text-gray-600 leading-relaxed">
-                    Goals, habits, tasks, and calendar in one place. Pia sees the full picture and helps you stay consistent across all of it.
-                </p>
             </div>
 
             <!-- Card 4: Streaks you want to protect -->
-            <div class="bg-white p-8 rounded-xl border border-gray-200 hover:border-primary-300 transition-all duration-300">
-                <div class="w-12 h-12 text-primary-500 mb-6">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-full h-full">
+            <div class="p-8 flex items-start gap-6 hover:bg-gray-50 transition-all duration-300 rounded-xl">
+                <div class="flex-1">
+                    <h3 class="text-2xl font-serif mb-4">Streaks you want to protect</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Visual progress tracking, milestone celebrations, and streak counters give your brain the dopamine hits it needs to keep going.
+                    </p>
+                </div>
+                <div class="w-16 h-16 text-primary-500 flex-shrink-0">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="w-full h-full">
                         <circle cx="12" cy="8" r="7"></circle>
                         <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
                     </svg>
                 </div>
-                <h3 class="text-2xl font-serif mb-4">Streaks you want to protect</h3>
-                <p class="text-gray-600 leading-relaxed">
-                    Visual progress tracking, milestone celebrations, and streak counters give your brain the dopamine hits it needs to keep going.
-                </p>
             </div>
 
             <!-- Card 5: Identity-based goals -->
-            <div class="bg-white p-8 rounded-xl border border-gray-200 hover:border-primary-300 transition-all duration-300">
-                <div class="w-12 h-12 text-primary-500 mb-6">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-full h-full">
+            <div class="p-8 flex items-start gap-6 hover:bg-gray-50 transition-all duration-300 rounded-xl">
+                <div class="flex-1">
+                    <h3 class="text-2xl font-serif mb-4">Identity-based goals</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Based on James Clear's Atomic Habits: link your habits to who you want to become, not just what you want to do.
+                    </p>
+                </div>
+                <div class="w-16 h-16 text-primary-500 flex-shrink-0">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="w-full h-full">
                         <polygon points="3 11 22 2 13 21 11 13 3 11"></polygon>
                     </svg>
                 </div>
-                <h3 class="text-2xl font-serif mb-4">Identity-based goals</h3>
-                <p class="text-gray-600 leading-relaxed">
-                    Based on James Clear's Atomic Habits: link your habits to who you want to become, not just what you want to do.
-                </p>
             </div>
         </div>
     </section>
