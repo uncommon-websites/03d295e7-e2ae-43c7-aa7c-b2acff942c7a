@@ -565,7 +565,7 @@
 
             <div class="flex flex-col md:flex-row items-center justify-between w-full border-t border-gray-200 pt-12 gap-8">
                 <div class="text-xs text-gray-400">
-                    © 2024 Actimate Inc.
+                    2025 ActimateAI LLC
                 </div>
                 <div class="flex gap-6">
                     <!-- Social Icons -->
