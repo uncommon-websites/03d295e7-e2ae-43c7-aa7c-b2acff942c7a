@@ -213,28 +213,18 @@
             <!-- Card 1: AI Accountability Partner - Pia -->
             <div class="bg-[#1C1C1C] rounded-[2rem] p-12 md:p-24 text-white relative overflow-hidden">
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                    <!-- Visual: Pia Avatar with Chat Bubbles -->
+                    <!-- Visual: Pia Chat Interface -->
                     <div class="relative flex justify-center items-center min-h-[400px] order-2 lg:order-1">
-                        <div class="relative">
-                            <!-- Central avatar -->
-                            <div class="w-36 h-36 rounded-full bg-gradient-to-br from-primary-400 to-primary-600 flex items-center justify-center shadow-lg">
-                                <svg class="w-16 h-16 text-white" viewBox="0 0 24 24" fill="currentColor">
-                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
-                                </svg>
-                            </div>
-
-                            <!-- Chat bubbles -->
-                            <div class="absolute -top-6 -right-24 bg-white/10 rounded-2xl rounded-br-sm px-4 py-3 text-sm text-white/90 border border-white/5">
-                                How's the workout going?
-                            </div>
-                            <div class="absolute top-1/2 -translate-y-1/2 -right-32 bg-white/5 rounded-2xl px-3 py-2 text-xs text-white/60 border border-white/5">
-                                9:00 AM check-in
-                            </div>
-                            <div class="absolute -bottom-4 -left-20 bg-primary-500/20 rounded-2xl rounded-bl-sm px-4 py-3 text-sm text-white/90 border border-primary-500/10">
-                                You've got this!
-                            </div>
-                            <div class="absolute top-4 -left-16 bg-white/5 rounded-2xl px-3 py-2 text-xs text-white/60 border border-white/5">
-                                Following up...
+                        <div class="relative w-full max-w-[340px]">
+                            <!-- Phone mockup with screenshot -->
+                            <div class="phone-frame-feature">
+                                <div class="phone-screen-feature">
+                                    <img 
+                                        src="/uploaded/1765983102802-mimj8rk.png" 
+                                        alt="Pia AI chat interface showing personalized coaching and accountability features"
+                                        class="w-full h-full object-cover"
+                                    />
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -635,6 +625,60 @@
         }
 
         .phone-frame::before {
+            width: 25%;
+            max-width: 100px;
+            height: 28px;
+            top: 14px;
+        }
+    }
+
+    /* Phone Frame for Features Section */
+    .phone-frame-feature {
+        position: relative;
+        width: 100%;
+        max-width: 340px;
+        aspect-ratio: 340 / 700;
+        border-radius: 52px;
+        padding: 10px;
+        background: #2a2a2a;
+        box-shadow: 0 8px 40px -8px rgba(0, 0, 0, 0.3);
+        margin: 0 auto;
+    }
+
+    /* Dynamic Island for feature phone */
+    .phone-frame-feature::before {
+        content: '';
+        position: absolute;
+        top: 16px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100px;
+        height: 32px;
+        background: #000;
+        border-radius: 18px;
+        z-index: 50;
+    }
+
+    .phone-screen-feature {
+        width: 100%;
+        height: 100%;
+        background: #FAFAFA;
+        border-radius: 44px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    @media (max-width: 1023px) {
+        .phone-frame-feature {
+            border-radius: 46px;
+            padding: 9px;
+        }
+
+        .phone-screen-feature {
+            border-radius: 38px;
+        }
+
+        .phone-frame-feature::before {
             width: 25%;
             max-width: 100px;
             height: 28px;
