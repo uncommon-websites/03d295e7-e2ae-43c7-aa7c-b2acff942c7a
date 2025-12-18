@@ -53,93 +53,12 @@
             <!-- Single Phone -->
             <div class="phone-frame">
                 <div class="phone-screen">
-                    <!-- Status Bar with Dynamic Island space -->
-                    <div class="h-10"></div>
-
-                    <!-- Content -->
-                    <div class="px-4 pt-1">
-                        <!-- Header -->
-                        <div class="text-center mb-4">
-                            <h3 class="text-base font-semibold text-gray-900">Today</h3>
-                            <p class="text-[10px] text-gray-400 mt-0.5">Thursday, October 9</p>
-                        </div>
-
-                        <!-- View Tabs -->
-                        <div class="flex justify-center gap-5 mb-4">
-                            <span class="text-[10px] text-primary-500 font-medium pb-1 border-b border-primary-500">Day</span>
-                            <span class="text-[10px] text-gray-400">Week</span>
-                            <span class="text-[10px] text-gray-400">Month</span>
-                        </div>
-
-                        <!-- AI Coach Card -->
-                        <div class="flex items-center gap-2.5 bg-gradient-to-r from-primary-50 to-orange-50 rounded-xl p-3 mb-4">
-                            <div class="w-7 h-7 bg-primary-500 rounded-lg flex items-center justify-center flex-shrink-0">
-                                <svg class="w-3.5 h-3.5 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                            </div>
-                            <div>
-                                <span class="text-xs font-medium text-gray-900">Plan your day with Pia</span>
-                                <p class="text-[9px] text-gray-500">Your AI accountability coach</p>
-                            </div>
-                        </div>
-
-                        <!-- Tasks Section -->
-                        <div class="mb-4">
-                            <div class="flex items-center justify-between mb-2">
-                                <span class="text-xs font-semibold text-gray-900">Tasks</span>
-                                <span class="text-[10px] text-gray-400">2 remaining</span>
-                            </div>
-                            <div class="space-y-2">
-                                <div class="flex items-center gap-2.5 p-2.5 bg-white rounded-xl border border-gray-100">
-                                    <div class="w-4 h-4 rounded border-2 border-primary-500 flex-shrink-0"></div>
-                                    <span class="text-xs text-gray-800">Write product roadmap</span>
-                                </div>
-                                <div class="flex items-center gap-2.5 p-2.5 bg-white rounded-xl border border-gray-100">
-                                    <div class="w-4 h-4 rounded border-2 border-gray-300 flex-shrink-0"></div>
-                                    <span class="text-xs text-gray-800">Review team proposals</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Scheduled -->
-                        <div>
-                            <span class="text-xs font-semibold text-gray-900 block mb-2">Scheduled</span>
-                            <div class="flex items-center gap-2.5 p-2.5 bg-white rounded-xl border border-gray-100">
-                                <div class="w-4 h-4 rounded border-2 border-gray-300 flex-shrink-0"></div>
-                                <div class="flex-1">
-                                    <span class="text-xs text-gray-800">Workout</span>
-                                    <span class="text-[10px] text-primary-500 ml-1.5">2:00 PM</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- FAB -->
-                    <div class="absolute bottom-20 right-4">
-                        <div class="w-10 h-10 bg-primary-500 rounded-xl flex items-center justify-center shadow-lg shadow-primary-500/25">
-                            <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 5v14m-7-7h14"/></svg>
-                        </div>
-                    </div>
-
-                    <!-- Bottom Nav -->
-                    <div class="absolute bottom-0 left-0 right-0 flex justify-around items-center py-3 px-4 bg-white/95 backdrop-blur-sm border-t border-gray-100">
-                        <div class="flex flex-col items-center gap-0.5">
-                            <svg class="w-5 h-5 text-primary-500" fill="currentColor" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/></svg>
-                            <span class="text-[8px] text-primary-500 font-medium">Timeline</span>
-                        </div>
-                        <div class="flex flex-col items-center gap-0.5">
-                            <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-                            <span class="text-[8px] text-gray-400">Habits</span>
-                        </div>
-                        <div class="flex flex-col items-center gap-0.5">
-                            <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/></svg>
-                            <span class="text-[8px] text-gray-400">Goals</span>
-                        </div>
-                        <div class="flex flex-col items-center gap-0.5">
-                            <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
-                            <span class="text-[8px] text-gray-400">AI</span>
-                        </div>
-                    </div>
-
+                    <!-- App Screenshot -->
+                    <img 
+                        src="/uploaded/1765982071029-8ze6vh5.png" 
+                        alt="Actimate app timeline view showing daily tasks and schedule"
+                        class="w-full h-full object-cover"
+                    />
                 </div>
             </div>
         </div>
@@ -294,28 +213,18 @@
             <!-- Card 1: AI Accountability Partner - Pia -->
             <div class="bg-[#1C1C1C] rounded-[2rem] p-12 md:p-24 text-white relative overflow-hidden">
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                    <!-- Visual: Pia Avatar with Chat Bubbles -->
+                    <!-- Visual: Pia Chat Interface -->
                     <div class="relative flex justify-center items-center min-h-[400px] order-2 lg:order-1">
-                        <div class="relative">
-                            <!-- Central avatar -->
-                            <div class="w-36 h-36 rounded-full bg-gradient-to-br from-primary-400 to-primary-600 flex items-center justify-center shadow-lg">
-                                <svg class="w-16 h-16 text-white" viewBox="0 0 24 24" fill="currentColor">
-                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
-                                </svg>
-                            </div>
-
-                            <!-- Chat bubbles -->
-                            <div class="absolute -top-6 -right-24 bg-white/10 rounded-2xl rounded-br-sm px-4 py-3 text-sm text-white/90 border border-white/5">
-                                How's the workout going?
-                            </div>
-                            <div class="absolute top-1/2 -translate-y-1/2 -right-32 bg-white/5 rounded-2xl px-3 py-2 text-xs text-white/60 border border-white/5">
-                                9:00 AM check-in
-                            </div>
-                            <div class="absolute -bottom-4 -left-20 bg-primary-500/20 rounded-2xl rounded-bl-sm px-4 py-3 text-sm text-white/90 border border-primary-500/10">
-                                You've got this!
-                            </div>
-                            <div class="absolute top-4 -left-16 bg-white/5 rounded-2xl px-3 py-2 text-xs text-white/60 border border-white/5">
-                                Following up...
+                        <div class="relative w-full max-w-[340px]">
+                            <!-- Phone mockup with screenshot -->
+                            <div class="phone-frame-feature">
+                                <div class="phone-screen-feature">
+                                    <img 
+                                        src="/uploaded/1765983102802-mimj8rk.png" 
+                                        alt="Pia AI chat interface showing personalized coaching and accountability features"
+                                        class="w-full h-full object-cover"
+                                    />
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -716,6 +625,60 @@
         }
 
         .phone-frame::before {
+            width: 25%;
+            max-width: 100px;
+            height: 28px;
+            top: 14px;
+        }
+    }
+
+    /* Phone Frame for Features Section */
+    .phone-frame-feature {
+        position: relative;
+        width: 100%;
+        max-width: 340px;
+        aspect-ratio: 340 / 700;
+        border-radius: 52px;
+        padding: 10px;
+        background: #2a2a2a;
+        box-shadow: 0 8px 40px -8px rgba(0, 0, 0, 0.3);
+        margin: 0 auto;
+    }
+
+    /* Dynamic Island for feature phone */
+    .phone-frame-feature::before {
+        content: '';
+        position: absolute;
+        top: 16px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100px;
+        height: 32px;
+        background: #000;
+        border-radius: 18px;
+        z-index: 50;
+    }
+
+    .phone-screen-feature {
+        width: 100%;
+        height: 100%;
+        background: #FAFAFA;
+        border-radius: 44px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    @media (max-width: 1023px) {
+        .phone-frame-feature {
+            border-radius: 46px;
+            padding: 9px;
+        }
+
+        .phone-screen-feature {
+            border-radius: 38px;
+        }
+
+        .phone-frame-feature::before {
             width: 25%;
             max-width: 100px;
             height: 28px;
