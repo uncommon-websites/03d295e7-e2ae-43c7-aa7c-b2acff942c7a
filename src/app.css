@@ -28,7 +28,7 @@
 	--color-gray-950: oklch(0.141 0.005 285.823);
 
 	--font-serif: "EB Garamond", serif;
-	--font-sans: "Inter", sans-serif;
+	--font-sans: "Nunito", sans-serif;
 }
 
 @layer base {
@@ -36,6 +36,6 @@
         @apply bg-[#FDFDFD] text-gray-900 font-sans antialiased;
     }
     h1, h2, h3, h4, h5, h6 {
-        @apply font-serif;
+        @apply font-sans;
     }
 }
